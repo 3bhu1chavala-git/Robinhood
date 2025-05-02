@@ -23,7 +23,7 @@ struct ContentView: View {
                     LoginView()
                         .environmentObject(authManager)
                 }
-            }
+            }.preferredColorScheme(.dark)
         }
     }
 }

@@ -42,7 +42,6 @@ struct TabBarView: View {
                 .tag(4)
         }
         .tint(Theme.colors.textPrimary)
-        .preferredColorScheme(.dark)
     }
 }
 
